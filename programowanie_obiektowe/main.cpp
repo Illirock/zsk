@@ -4,12 +4,17 @@ using namespace std;
 
 class Worker {
     public:
-// deklaracja zmiennych cz≥onkowskich (w≥aúciwoúci)
+    // deklaracja zmiennych czlonkowskich (wlasciwo≈ìci)
     string name="Leosia";
     string surname;
-    // deklaracja funkcji cz≥onkowskich (metoda)
+    unsigned short int age;
+    // deklaracja funkcji czlonkowskich (metoda)
     void showData(){
-        cout<<"ImiÍ";
+        cout<<" Imie ";
+    }
+    void showName(){
+    // wy≈õwietlic imie pobrane z obiektu
+
     }
 };
 
@@ -19,5 +24,10 @@ int main()
     Worker pracownik;
     cout << pracownik.name;
     pracownik.showData();
+
+    pracownik.surname = "Mloda";
+    cout << "Imie i nazwisko: " << pracownik.name << " " << pracownik.surname <<endl;
+    pracownik.age=21;
+    cout << "Wiek: " << pracownik.age;
     return 0;
 }
