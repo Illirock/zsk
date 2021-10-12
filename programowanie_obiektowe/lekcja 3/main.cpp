@@ -26,7 +26,7 @@ string School::s_jobPosition="Cesarz";
 
 void School::getData()
 {
-    cout<<"Imiê i Nazwisko: "<<name<<" "<<surname<<endl;
+    cout<<"ImiÃª i Nazwisko: "<<name<<" "<<surname<<endl;
 }
 void School::setNameSurname(string name, string pSurname)
 {
@@ -46,7 +46,7 @@ cout<<School::s_school<<endl;
 cout<<School::s_jobPosition<<endl;
 
 School szklanki;
-szklanki.setNameSurname("M³oda", "Leokadia");
+szklanki.setNameSurname("MÂ³oda", "Leokadia");
 szklanki.getData();
 
 School::s_jobPosition="Bogini"
@@ -57,6 +57,6 @@ szklanki.s_jobPosition="DJ";
 cout<<School::s_jobPosition;
 
 szklanki.s_getSchool();
-szklanki.s_setSchool("ZS£");
+szklanki.s_setSchool("ZSÂ£");
 cout<<szklanki.s_getSchool();
 }
