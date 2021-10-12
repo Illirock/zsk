@@ -11,7 +11,7 @@ class Worker
 };
 void Worker::getData()
 {
-    cout<<"ImiÍ i nazwisko: "<<name<<" "<<surname;
+    cout<<"Imiƒô i nazwisko: "<<name<<" "<<surname;
 }
 int main(int argc, char** argv)
 {
@@ -23,7 +23,7 @@ int main(int argc, char** argv)
     cout<<"Aders obiektu kowalski: "<<p_kowalski<<endl;
 
     kowalski.surname="Kowalski";
-    p_kowalski->name="Pawe≥";
+    p_kowalski->name="Pawe≈Ç";
 
     kowalski.getData();
     cout<<"\n";
