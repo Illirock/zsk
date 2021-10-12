@@ -20,7 +20,7 @@ kuchnia.lenght=6;
 kuchnia.width=3.5;
 kuchnia.height=2.5;
 
-cout<<"Kuchnia\nD³ugoœæ:"<<kuchnia.lenght<<"m\nSzerokoœæ:"<<kuchnia.width<<"m\nWysokoœæ:"<<kuchnia.height<<"m\n\n"
+cout<<"Kuchnia\nDÅ‚ugoÅ›Ä‡:"<<kuchnia.lenght<<"m\nSzerokoÅ›Ä‡:"<<kuchnia.width<<"m\nWysokoÅ›Ä‡:"<<kuchnia.height<<"m\n\n"
 <<"Kubatura pomieszczenia:"<<kuchnia.roomVolume(kuchnia.lenght,kuchnia.width,kuchnia.height);
 }
 
