@@ -18,8 +18,8 @@ public:
 Worker::Worker()
 {
     id=13;
-    name="Domyœlne Imiê";
-    surname="Domyœlne Nazwisko";
+    name="DomyÅ“lne ImiÃª";
+    surname="DomyÅ“lne Nazwisko";
 }
 Worker::Worker(int pId, string pName, string pSurname)
 {
@@ -30,7 +30,7 @@ Worker::Worker(int pId, string pName, string pSurname)
 
 void Worker::getData()
 {
-    cout<<"Id: "<<id<<"\nImiê: "<<name<<", nazwisko: "<<surname<<endl;
+    cout<<"Id: "<<id<<"\nImiÃª: "<<name<<", nazwisko: "<<surname<<endl;
 }
 
 int main(int argc, char** argv)
