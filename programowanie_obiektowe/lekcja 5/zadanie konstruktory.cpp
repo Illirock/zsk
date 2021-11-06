@@ -15,7 +15,7 @@ Book::getAuthor()
 }
 Book::getTitle()
 {
-    cout<<"Tytu³: "<<title<<endl;
+    cout<<"TytuÂ³: "<<title<<endl;
 }
 Book::setAuthor(string pAuthor)
 {
@@ -23,7 +23,7 @@ Book::setAuthor(string pAuthor)
 }
 int main() {
 	setlocale(LC_CTYPE, "polish");
-	Book ksi¹¿ka(Biblia, Jezus);
-	ksi¹¿ka.getTitle();
-	ksi¹¿ka.getAuthor();
+	Book ksiÂ¹Â¿ka(Biblia, Jezus);
+	ksiÂ¹Â¿ka.getTitle();
+	ksiÂ¹Â¿ka.getAuthor();
 }
