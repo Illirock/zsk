@@ -10,7 +10,7 @@ private:
 public:
     Rectangle();
     Rectangle(double sideA, double sideB);
-    // prototyp konstruktora kopiuj¹cego
+    // prototyp konstruktora kopiujÂ¹cego
     Rectangle(const Rectangle &)
 };
 
