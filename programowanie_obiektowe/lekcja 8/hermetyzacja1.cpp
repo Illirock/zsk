@@ -33,7 +33,7 @@ Client::~Client()
 
 void Client::getData()
 {
-    cout<<"Klient banku o peselu "<<pesel<<" posiada "<<balance<<" z³\n"<<endl;
+    cout<<"Klient banku o peselu "<<pesel<<" posiada "<<balance<<" zÂ³\n"<<endl;
 }
 void Client::setData()
 {
@@ -42,7 +42,7 @@ void Client::setData()
 }
 void getData(unsigned int p, double b)
 {
-    cout<<"Klient banku o peselu "<<p<<" posiada "<<b<<" z³"<<endl;
+    cout<<"Klient banku o peselu "<<p<<" posiada "<<b<<" zÂ³"<<endl;
 }
 
 int main(int argc, char** argv) {
