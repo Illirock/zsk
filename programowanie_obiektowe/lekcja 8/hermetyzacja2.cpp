@@ -49,6 +49,6 @@ int main()
     Worker nowak("Janusz", "Nowak", "11122233344", 177);
     Worker *wsk =& nowak;
     wsk->setName("Bonus");
-    cout<<"Imiê: "<<wsk->getName()<<endl;
+    cout<<"ImiÃª: "<<wsk->getName()<<endl;
     nowak.getData();
 }
