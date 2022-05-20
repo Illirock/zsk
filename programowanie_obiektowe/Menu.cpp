@@ -17,7 +17,7 @@ void totolotek(){
 		cout<<"\n"<<lottery[j]<<", ";
 	}
 	for(int k=0; k<6; k++){
-		if(lottery[k]==array[6]){
+		if(lottery[k]==array[k]){
 			win++;	
 		}
 	}
